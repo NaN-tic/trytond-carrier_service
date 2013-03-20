@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- This file is part carrier_service module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+         <!-- carrier.service -->
+        <record model="ir.ui.view" id="carrier_service_view_form">
+            <field name="model">carrier.service</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <![CDATA[
+                <form string="Carrier Service" col="6">
+                    <label name="name"/>
+                    <field name="name"/>
+                </form>
+                ]]>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="carrier_service_view_tree">
+            <field name="model">carrier.service</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <![CDATA[
+                <tree string="Carrier Service">
+                    <field name="name"/>
+                    <field name="name"/>
+                </tree>
+                ]]>
+            </field>
+        </record>
+
+        <!-- carrier -->
+        <record model="ir.ui.view" id="carrier_view_form2">
+            <field name="model">carrier</field>
+            <field name="inherit" ref="carrier.carrier_view_form2"/>
+            <field name="arch" type="xml">
+                <![CDATA[
+                <data>
+                    <xpath expr="/form/field[@name='carrier_cost_method']"
+                        position="after">
+                        <newline/>
+                        <separator name="services" colspan="6"/>
+                        <field name="services" colspan="6"/>
+                    </xpath>
+                </data>
+                ]]>
+            </field>
+        </record>
+    </data>
+</tryton>

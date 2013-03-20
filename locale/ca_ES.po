@@ -1,0 +1,43 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:carrier,services:"
+msgid "Services"
+msgstr "Serveis"
+
+msgctxt "field:carrier.service,carrier:"
+msgid "Carrier"
+msgstr "Transportistes"
+
+msgctxt "field:carrier.service,create_date:"
+msgid "Create Date"
+msgstr "Data creació"
+
+msgctxt "field:carrier.service,create_uid:"
+msgid "Create User"
+msgstr "Usuari creació"
+
+msgctxt "field:carrier.service,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:carrier.service,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:carrier.service,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:carrier.service,write_date:"
+msgid "Write Date"
+msgstr "Data modificació"
+
+msgctxt "field:carrier.service,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "model:carrier.service,name:"
+msgid "CarrierService"
+msgstr "Serveis transportistes"
