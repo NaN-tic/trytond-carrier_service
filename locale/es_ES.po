@@ -10,6 +10,10 @@ msgctxt "field:carrier.service,carrier:"
 msgid "Carrier"
 msgstr "Transportista"
 
+msgctxt "field:carrier.service,code:"
+msgid "Code"
+msgstr "Código"
+
 msgctxt "field:carrier.service,create_date:"
 msgid "Create Date"
 msgstr "Fecha de creación"
