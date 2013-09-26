@@ -11,6 +11,7 @@ class CarrierService(ModelSQL, ModelView):
     'CarrierService'
     __name__ = 'carrier.service'
     name = fields.Char('Name', required=True, translate=True)
+    code = fields.Char('Code', required=True)
     carrier = fields.Many2One('carrier', 'Carrier', required=True)
 
 
