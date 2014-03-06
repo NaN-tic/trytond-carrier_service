@@ -13,6 +13,7 @@ class CarrierService(ModelSQL, ModelView):
     name = fields.Char('Name', required=True, translate=True)
     code = fields.Char('Code', required=True)
     carrier = fields.Many2One('carrier', 'Carrier', required=True)
+    default = fields.Boolean('Default', help='Default service carrier')
 
 
 class Carrier:
