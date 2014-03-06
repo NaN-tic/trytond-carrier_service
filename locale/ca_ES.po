@@ -22,6 +22,10 @@ msgctxt "field:carrier.service,create_uid:"
 msgid "Create User"
 msgstr "Usuari creació"
 
+msgctxt "field:carrier.service,default:"
+msgid "Default"
+msgstr "Per defecte"
+
 msgctxt "field:carrier.service,id:"
 msgid "ID"
 msgstr "ID"
@@ -42,6 +46,14 @@ msgctxt "field:carrier.service,write_uid:"
 msgid "Write User"
 msgstr "Usuari modificació"
 
+msgctxt "help:carrier.service,default:"
+msgid "Default service carrier"
+msgstr "Servei per defecte del transportista"
+
 msgctxt "model:carrier.service,name:"
 msgid "CarrierService"
+msgstr "Serveis transportistes"
+
+msgctxt "view:carrier.service:"
+msgid "Carrier Service"
 msgstr "Serveis transportistes"
