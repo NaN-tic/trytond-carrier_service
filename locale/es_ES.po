@@ -16,11 +16,11 @@ msgstr "Código"
 
 msgctxt "field:carrier.service,create_date:"
 msgid "Create Date"
-msgstr "Fecha de creación"
+msgstr "Fecha creación"
 
 msgctxt "field:carrier.service,create_uid:"
 msgid "Create User"
-msgstr "Usuario de creación"
+msgstr "Usuario creación"
 
 msgctxt "field:carrier.service,default:"
 msgid "Default"
