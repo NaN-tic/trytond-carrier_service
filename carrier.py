@@ -5,7 +5,6 @@ from trytond.model import ModelView, ModelSQL, fields
 from trytond.pool import PoolMeta
 
 __all__ = ['CarrierService', 'Carrier']
-__metaclass__ = PoolMeta
 
 
 class CarrierService(ModelSQL, ModelView):
@@ -18,5 +17,6 @@ class CarrierService(ModelSQL, ModelView):
 
 
 class Carrier:
+    __metaclass__ = PoolMeta
     __name__ = 'carrier'
     services = fields.One2Many('carrier.service', 'carrier', 'Services')
